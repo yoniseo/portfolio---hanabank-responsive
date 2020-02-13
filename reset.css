@@ -1,0 +1,68 @@
+@charset "utf-8"; 
+
+/* common */
+html,body{overflow-x: hidden;}
+body{position: relative;overflow-y: hidden;}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family: 'NotoSans_Regular', sans-serif;font-size:12px;outline: none;}
+img,fieldset{border:0}
+img{vertical-align:top}
+ul,ol{list-style:none;margin:0;padding:0;}
+dl{margin-bottom:0 !important}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:none}
+table{border-collapse:collapse}	
+hr{display:none}
+legend{*width:0}
+h1,h2{margin:0 !important}
+button{background-color:rgba(0,0,0,0);border:none;}
+.blind,legend{display:block;overflow:hidden;position:absolute;left:0;top:-9999em}
+#skip{text-decoration:none;}
+#skip dt {display: none;font-size: 0;position: absolute;}
+#skip dd a{display:block;position:absolute;left:0;top:-9999em;z-index:9999;overflow:hidden;width:100%;background-color:#27b2a5;color:#fff;font-size: 14px;text-align:center;text-decoration:none;line-height:2.2}
+#skip a:hover,#skip a:active,#skip a:focus{top:0}
+.clearfix{*zoom:1}
+.clearfix:after{content:' ';display:block;clear:both}
+.container {max-width:1130px;width:1130px;margin:0 auto;}
+@media screen and (max-width:1299px) {.container {max-width:960px;width:960px;}}
+@media screen and (max-width:1119px) {.container {max-width:750px;width:750px;}}
+@media screen and (max-width:768px) {.container {max-width:100%;width:100%;}}
+.cont_green {background-color: #31d1a0;}
+
+/* fonts */
+@font-face {
+	font-family:'NotoSans_Regular';
+	font-style:normal;
+	font-weight:normal;
+	src:	url('../fonts/NotoSansKR-Regular.otf');
+;}
+
+@font-face {
+	font-family:'NotoSans_Thin';
+	font-style:normal;
+	font-weight:normal;
+	src:	url('../fonts/NotoSansKR-Thin.otf');
+;}
+
+@font-face {
+	font-family:'NotoSans_Light';
+	font-style:normal;
+	font-weight:normal;
+	src:	url('../fonts/NotoSansKR-Light.otf');
+;}
+
+@font-face {
+	font-family:'NotoSans_Medium';
+	font-style:normal;
+	font-weight:normal;
+	src:	url('../fonts/NotoSansKR-Medium.otf');
+;}
+
+
+@font-face {
+	font-family:'NotoSans_Bold';
+	font-style:normal;
+	font-weight:normal;
+	src:	url('../fonts/NotoSansKR-Bold.otf');
+;} 
